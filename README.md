@@ -62,11 +62,11 @@ pkg install ffmpeg -y
 
 ```
 ```
-npm install gify-cli -g
+cd wabot-termux
 
 ```
 ```
-cd wabot-termux
+npm install gify-cli -g
 
 ```
 ```
