@@ -64,8 +64,8 @@ const { othermenu } require('./database/menu/othermenu')*/
 /******LOAD OF VCARD INPUT******/
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:5.0\n' 
-            + 'FN:BOT_Levi Vers.4.3\n' // Nama kamu
-            + 'ORG:BOT_Levi Vers.4.3;\n' // Nama bot
+            + 'FN:Bot_Chitanda Eru\n' // Nama kamu
+            + 'ORG:Bot_Chitanda Eru;\n' // Nama bot
             + 'TEL;type=CELL;type=VOICE;waid=6283191735552:+62 831-9173-5552\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 /******END OF VCARD INPUT******/
