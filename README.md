@@ -93,6 +93,12 @@ node index.js
 |       ✅       | ttp   |
 
 
+| Daftar |                Feature           |
+| :-----------: | :--------------------------------: |
+|       ✅       | Daftar         |
+|       ✅       | Leveling         |
+
+
 | Downloader |                     Feature(Media)                |
 | :------------: | :---------------------------------------------: |
 |       ✅        |   YouTube mp3/mp4 Downloader                    |
