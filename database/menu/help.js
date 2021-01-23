@@ -1,6 +1,6 @@
 const help = (prefix, ownerBot, botName) => {
         return `
-「 *${botName}* 」
+「 *Bot_Takagisan* 」
 
 👋️ *Yahalo Minna-San* , Jibun no namae
   ╿
