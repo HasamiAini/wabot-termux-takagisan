@@ -168,7 +168,6 @@ node index.js
 ```
 ## Special Thanks to
 * [`open-wa/wa-automate-nodejs`](https://github.com/open-wa/wa-automate-nodejs)
-* [`https://github.com/MhankBarBar`](https://github.com/MhankBarBar/whatsapp-bot)
 
 ### Donate
 * [`Saweria`](https://saweria.co/hasamiain)
