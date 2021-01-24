@@ -2,7 +2,7 @@ const help = (prefix, ownerBot, botName) => {
         return `
 「 *Bot_Takagisan* 」
 
-👋️ *Yahalo Minna-San* , Jibun no namae
+👋️ *Yahalo Minna-San*
   ╿
   ┡➪☾ ⌨️BOT Commands⌨️ ☽
   ┠➵ *${prefix}help*
@@ -39,9 +39,12 @@ const help = (prefix, ownerBot, botName) => {
 ┠➵ ${prefix}clone*
 ➪☾ ⌨️Others Commands⌨️ ☽
  ➥╿➵ ${prefix}wa.me*
+ ➥╿➵ ${prefix}bcgc*
+ ➥╿➵ ${prefix}bpink*
  ➥╿➵ ${prefix}quotes*
  ➥╿➵ ${prefix}fml*
  ➥╿➵ ${prefix}wiki*
+ ➥╿➵ ${prefix}semoji*
  ➥╿➵ ${prefix}nulis*
  ➥╿➵ ${prefix}kbbi*
  ➥╿➵ ${prefix}hilih*
@@ -60,8 +63,8 @@ const help = (prefix, ownerBot, botName) => {
  ➥╿➵ ${prefix}ninjalogo*
  ➥╿➵ ${prefix}game*
  ➥╿➵ ${prefix}fakta*
- ➥╿➵ ${prefix}firetext*
  ➥╿➵ ${prefix}cantikcek*
+ ➥╿➵ ${prefix}gantengcek*
  ➥╿➵ ${prefix}watak*
  ➥╿➵ ${prefix}hobby*
  ➥╿➵ ${prefix}logowolf*
@@ -91,6 +94,7 @@ const help = (prefix, ownerBot, botName) => {
  ➥╿➵ ${prefix}ttp*
  ➪☾ ⌨️MEDIA Commands⌨️ ☽
  ➥╿➵ ${prefix}tiktokstalk*
+ ➥╿➵ ${prefix}joox*
  ➥╿➵ ${prefix}ytmp4*
  ➥╿➵ ${prefix}trendtwit*
  ➥╿➵ ${prefix}igstalk*
@@ -99,6 +103,7 @@ const help = (prefix, ownerBot, botName) => {
  ➥╿➵ ${prefix}tiktok*
  ➪☾ ⌨️Anime Commands⌨️ ☽
  ➥╿➵ ${prefix}loli*
+ ➥╿➵ ${prefix}animecry*
  ➥╿➵ ${prefix}animecry*
  ➥╿➵ ${prefix}neonime*
  ➥╿➵ ${prefix}pokemon*
@@ -110,6 +115,7 @@ const help = (prefix, ownerBot, botName) => {
  ➥╿➵ ${prefix}husbu*
  ➥╿➵ ${prefix}husbu2*
  ➥╿➵ ${prefix}wait*
+ ➥╿➵ ${prefix}shota*
  ➪☾ ⌨️Islam Commands⌨️ ☽
  ➥╿➵ ${prefix}quran*
  ➪☾ ⌨️Picture Commands⌨️ ☽
@@ -139,6 +145,7 @@ const help = (prefix, ownerBot, botName) => {
  ➪☾ ⌨️content 18+ Commands⌨️ ☽
  ➥╿➵ ${prefix}doujinmoee*
  ➥╿➵ ${prefix}randomhentai*
+ ➥╿➵ ${prefix}nekohentai*
  *GROUP BOT_TAKAGISAN:https://chat.whatsapp.com/EcIp7XK3fB70JzzTCNnfYz`
 }
 exports.help = help
