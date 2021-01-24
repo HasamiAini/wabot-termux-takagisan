@@ -39,7 +39,7 @@ ____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ ___
 ## use the command below, if you want to download via the link
 
 ```bash
-> git clone https://github.com/HasamiAini/wabot-termux.git
+> git clone https://github.com/HasamiAini/wabot-termux-takagisan.git
 ```
 
 ## Install the dependencies:
