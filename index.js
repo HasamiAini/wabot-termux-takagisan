@@ -243,7 +243,7 @@ async function starts() {
 					Iv: '❌ Link ERROR Onichan ❌'
 				},
 				only: {
-					group: '[❗] *BAKAJANAINO?* Fitur Ini Khusus Di Group Desu! ❌',
+					group: '[❗] *Gomenasai..ini fitur prabayar* Silahkan Hubungi >083191735552 wa.me/6283191735552 Untuk pembayaran! ❌',
 					ownerG: '[❗] BAKA..BAKAA..BAKAA! Fitur Khusus OwnerGroup Desu ❌',
 					ownerB: '[❗] *BAKAJANAINO*? Khusus OwnerBot Desu! ❌',
 					admin: '[❗]  *Baka...!* Fitur Khusus Admin Group Desu..! ❌',
@@ -1323,11 +1323,12 @@ case 'timer':
 					client.sendMessage(from, anu.result.soal, text, { quoted: mek }) // ur cods
 					}, 0) // 1000 = 1s,
 					break
+						
                                   case 'daftar':
 					client.updatePresence(from, Presence.composing)
 					if (!isGroup) return reply(mess.only.group)
 					if (isUser) return reply('Lu udah terdaftar ')
-					if (args.length < 1) return reply(`Parameter Salah\nCommand : ${prefix}daftar nama|umur\nContoh : ${prefix}daftar Caliph|12`)
+					if (args.length < 1) return reply(`Parameter Salah\nCommand : ${prefix}user nama|umur\nContoh : ${prefix}daftar bot|22`)
 					var reg = body.slice(8)
 					var jeneng = reg.split("|")[0];
 					var umure = reg.split("|")[1];
