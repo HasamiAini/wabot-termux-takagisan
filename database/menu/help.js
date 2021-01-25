@@ -60,7 +60,7 @@ const help = (prefix, ownerBot, botName) => {
  ➥╿➵ ${prefix}stickergif*
  ➥╿➵ ${prefix}toimg*
  ➥╿➵ ${prefix}infocuaca*
- ➥╿➵ ${prefix}ninjalogo*
+ ➥╿➵ ${prefix}ninjalogo* (Bug)
  ➥╿➵ ${prefix}game*
  ➥╿➵ ${prefix}fakta*
  ➥╿➵ ${prefix}cantikcek*
@@ -124,22 +124,22 @@ const help = (prefix, ownerBot, botName) => {
  ➥╿➵ ${prefix}memeindo*
  ➥╿➵ ${prefix}logowolf2*
  ➥╿➵ ${prefix}phlogo*
- ➥╿➵ ${prefix}neonlogo*
+ ➥╿➵ ${prefix}neonlogo* (Bug)
  ➥╿➵ ${prefix}neonlogo2*
  ➥╿➵ ${prefix}lionlogo*
  ➥╿➵ ${prefix}jokerlogo*
  ➥╿➵ ${prefix}shadow*
  ➥╿➵ ${prefix}burnpaper*
- ➥╿➵ ${prefix}coffee*
+ ➥╿➵ ${prefix}coffee* (Bug)
  ➥╿➵ ${prefix}lovepaper*
  ➥╿➵ ${prefix}woodblock*
  ➥╿➵ ${prefix}qowheart*
  ➥╿➵ ${prefix}mutgrass*
  ➥╿➵ ${prefix}undergocean*
  ➥╿➵ ${prefix}woodenboards*
- ➥╿➵ ${prefix}wolfmetal*
+ ➥╿➵ ${prefix}wolfmetal* (Bug)
  ➥╿➵ ${prefix}metalictglow*
- ➥╿➵ ${prefix}8bit*
+ ➥╿➵ ${prefix}8bit* (Bug)
  ➥╿➵ ${prefix}pubglogo*
  ➥╿➵ ${prefix}herrypotter*
  ➪☾ ⌨️content 18+ Commands⌨️ ☽
