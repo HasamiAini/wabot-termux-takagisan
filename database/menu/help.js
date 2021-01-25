@@ -3,7 +3,7 @@ const help = (prefix, ownerBot, botName) => {
 「 *Bot_Takagisan* 」
 
 👋️ *Yahalo Minna-San*
-  ╿
+  「My Owner > 083191735552 Or wa.me/628319173552
   ┡➪☾ ⌨️BOT Commands⌨️ ☽
   ┠➵ *${prefix}help*
   ┠➵ ${prefix}timer*
