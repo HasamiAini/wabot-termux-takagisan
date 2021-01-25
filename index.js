@@ -1088,7 +1088,7 @@ case 'timer':
 								fs.unlinkSync(media)
 							})
 					} else {
-						reply('Foto aja tod')
+						reply('Foto aja onichan')
 					}
 					break
 
@@ -1342,7 +1342,7 @@ case 'timer':
 					if (!isGroupAdmins) return reply(mess.only.Badmin)
 					if (args.length < 1) return reply('ketik 1 untuk mengaktifkan')
 					if (Number(args[0]) === 1) {
-						if (isWelkom) return reply('fitur udah aktif yaa tod')
+						if (isWelkom) return reply('Fitur Udah aktif')
 						welkom.push(from)
 						fs.writeFileSync('./database/json/welkom.json', JSON.stringify(welkom))
 						reply('❬ SUCCSESS ❭ mengaktifkan fitur welcome di group ini')
@@ -1365,7 +1365,7 @@ case 'timer':
 					if (!isGroup) return reply(mess.only.group)
                                         if (!isUser) return reply(mess.only.daftarB)
 					tels = body.slice(7)
-					if (tels.length > 15) return reply('Teksnya kepanjangan anjink, maksimal 20 karakter')
+					if (tels.length > 15) return reply('Teksnya kepanjangan, maksimal 20 karakter')
 					reply(mess.wait)
 					anu = await fetchJson(`https://kocakz.herokuapp.com/api/flamingtext/water?text=${tels}`, {method: 'get'})
 					buffer = await getBuffer(anu.result)
@@ -1376,7 +1376,7 @@ case 'timer':
 					if (!isGroup) return reply(mess.only.group)
                                         if (!isUser) return reply(mess.only.daftarB)
 					tels = body.slice(7)
-					if (tels.ength > 10) return reply('Teksnya kepanjangan anjink, maksimal 9 karakter')
+					if (tels.ength > 10) return reply('Teksnya kepanjangan, maksimal 9 karakter')
 					reply(mess.wait)
 					anu = await fetchJson(`https://zeksapi.herokuapp.com/api/tlight?text=${tels}&apikey=xptnbot352`, {method: 'get'})
 					buff = await getBuffer(anu.result)
@@ -1449,7 +1449,7 @@ case 'timer':
 					if (!isGroupAdmins) return reply(mess.only.admin)
 					if (args.length < 1) return reply('ketik 1 untuk mengaktifkan')
 					if (Number(args[0]) === 1) {
-						if (isNsfw) return reply('fitur udah aktif tod')
+						if (isNsfw) return reply('fitur udah aktif sebelumnya')
 						nsfw.push(from)
 						fs.writeFileSync('./database/json/nsfw.json', JSON.stringify(nsfw))
 						reply('❬ SUCCSESS ❭ mengaktifkan fitur nsfw di group ini')
