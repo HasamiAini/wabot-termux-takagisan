@@ -1626,7 +1626,7 @@ case 'timer':
 					if (!isGroup) return reply(mess.only.group)
                                         var gh = body.slice(10)
                                         teks1 = gh.split("|")[0];
-                                        if (args.length < 1) return reply('teksnya mana anjink\nContoh: ${prefix}neonlogo2 bot|')
+                                        if (args.length < 1) return reply('teksnya mana?\nContoh: ${prefix}neonlogo2 bot|')
                                         reply(mess.wait)
                                         anu = await fetchJson(`https://tobz-api.herokuapp.com/api/textpro?theme=neon_technology&text=${text1}&apikey=BotWeA`, {method: 'get'})
                                         buffer = await getBuffer(anu.result)
