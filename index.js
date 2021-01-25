@@ -64,8 +64,8 @@ const { othermenu } require('./database/menu/othermenu')*/
 /******LOAD OF VCARD INPUT******/
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:5.0\n' 
-            + 'FN:Bot_Chitanda Eru\n' // Nama kamu
-            + 'ORG:Bot_Chitanda Eru;\n' // Nama bot
+            + 'FN:Bot_Mashiro\n' // Nama kamu
+            + 'ORG:Bot_Mashiro;\n' // Nama bot
             + 'TEL;type=CELL;type=VOICE;waid=6283191735552:+62 831-9173-5552\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 /******END OF VCARD INPUT******/
@@ -251,9 +251,9 @@ async function starts() {
                                         daftarB: `──「 DAFTAR 」──\nYaharo..!\nKamu belum Terdaftar didalam Hati Bot, \n\nCommand : ${prefix}daftar nama|umur\nContoh : ${prefix}daftar bot|21`,
 				}
 			}
-    			const apakah = ['Iya','Tidak','Mungkin','Mungkin iya','Mungkin tidak','Coba tanyakan lagi','Tidak mungkin','Coba tanyakan lagi']
-        		const bolehkah = ['Boleh','Tidak boleh','Iya','Sangat di anjurkan','Tidak','Mingkin','Mungkin tidak','Jangan','Tentu saja','Coba tanyakan lagi']
-		        const kapankah = ['Hari Lagi','Minggu Lagi','Bulan Lagi','Tahun Lagi']
+    			const apakah = ['Iya','Tidak','Mungkin','Mungkin iya','Mungkin tidak','Coba tanyakan lagi','Tidak mungkin','Coba tanyakan lagi','Mustahil','Skip Yang Lain Aja']
+        		const bolehkah = ['Boleh','Tidak boleh','Iya','Sangat di anjurkan','Tidak','Mingkin','Mungkin tidak','Jangan','Tentu saja','Coba tanyakan lagi','Hentikan Itu','Pertanyaanmu Macam Apa Itu?']
+		        const kapankah = ['Hari Lagi','Minggu Lagi','Bulan Lagi','Tahun Lagi','Dua Tahun Lagi','Dua Bulan Lagi','Dua Hari Lagi','Kapan-Kapan','Mungkin Suatu hari nanti','Satu Abad Lagi','Maaf Butuh Bertahun-tahun']
 			const botNumber = client.user.jid
 			const ownerNumber = ["6283191735552@s.whatsapp.net"] // replace this with your number
 			const nomorOwner = [ownerNumber]
