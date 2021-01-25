@@ -62,7 +62,7 @@ pkg install ffmpeg -y
 
 ```
 ```
-cd wabot-termux
+cd wabot-termux-takagisan
 
 ```
 ```
