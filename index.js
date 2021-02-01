@@ -935,7 +935,7 @@ case 'timer':
                     teks3 = gh.split("|")[2]
                     data = await fetchJson(`https://terhambar.com/aw/qts/?kata=${teks1}&author=${teks2}&tipe=${teks3}`)
                     hasil = await getBuffer(data.result)
-                    client.sendMessage(from, hasil, image, {quoted: mek, caption: 'Nih anjink...'})
+                    client.sendMessage(from, hasil, image, {quoted: mek, caption: 'Nih...'})
                     break
                     case 'glitch':
                     gh = body.slice(7)
@@ -1702,7 +1702,7 @@ case 'timer':
                                 case 'coffee':
                                         var gh = body.slice(7)
                                         var teks1 = gh.split("|")[0];
-                                        if (args.length < 1) return reply('teksnya mana Anjink\nContoh: ${prefix}coffee bot|')
+                                        if (args.length < 1) return reply('teksnya mana\nContoh: ${prefix}coffee bot|')
 					if (!isGroup) return reply(mess.only.group)
                                         if (!isUser) return reply(mess.only.daftarB)
                                         reply(mess.wait)
@@ -1713,7 +1713,7 @@ case 'timer':
                                 case 'lovepaper':
                                         var gh = body.slice(10)
                                         var teks1 = gh.split("|")[0];
-                                        if (args.length < 1) return reply('teksnya mana kontol\nContoh: ${prefix}lovepaper bot|')
+                                        if (args.length < 1) return reply('teksnya mana?\nContoh: ${prefix}lovepaper bot|')
 					if (!isGroup) return reply(mess.only.group)
                                         if (!isUser) return reply(mess.only.daftarB)
                                         reply(mess.wait)
@@ -1735,7 +1735,7 @@ case 'timer':
                                 case 'qowheart':
                                         var gh = body.slice(9)
                                         var teks1 = gh.split("|")[0];
-                                        if (args.length < 1) return reply('teksnya mana anjink\nContoh: ${prefix}qowheart bot|')
+                                        if (args.length < 1) return reply('teksnya mana\nContoh: ${prefix}qowheart bot|')
 					if (!isGroup) return reply(mess.only.group)
                                         if (!isUser) return reply(mess.only.daftarB)
                                         reply(mess.wait)
@@ -1746,7 +1746,7 @@ case 'timer':
                                 case 'mutgrass':
                                         var gh = body.slice(9)
                                         var teks1 = gh.split("|")[0];
-                                        if (args.length < 1) return reply('teksnya mana anjink\nContoh: ${prefix}mutgrass bot|')
+                                        if (args.length < 1) return reply('teksnya mana\nContoh: ${prefix}mutgrass bot|')
 					if (!isGroup) return reply(mess.only.group)
                                         if (!isUser) return reply(mess.only.daftarB)
                                         reply(mess.wait)
@@ -1757,7 +1757,7 @@ case 'timer':
                                 case 'undergocean':
                                         var gh = body.slice(12)
                                         var teks1 = gh.split("|")[0];
-                                        if (args.length < 1) return reply('teksnya mana kontol\nContoh: ${prefix}undergocean botbot|')
+                                        if (args.length < 1) return reply('teksnya mana?\nContoh: ${prefix}undergocean botbot|')
 					if (!isGroup) return reply(mess.only.group)
                                         if (!isUser) return reply(mess.only.daftarB)
                                         reply(mess.wait)
@@ -1768,7 +1768,7 @@ case 'timer':
                                 case 'woodenboards':
                                         var gh = body.slice(13)
                                         var teks1 = gh.split("|")[0];
-                                        if (args.length < 1) return reply('teksnya mana bangsat\nContoh: ${prefix}woodenboards bot|')
+                                        if (args.length < 1) return reply('teksnya mana\nContoh: ${prefix}woodenboards bot|')
 					if (!isGroup) return reply(mess.only.group)
                                         if (!isUser) return reply(mess.only.daftarB)
                                         reply(mess.wait)
@@ -1779,7 +1779,7 @@ case 'timer':
                                 case 'wolfmetal':
                                         var gh = body.slice(10)
                                         var teks1 = gh.split("|")[0];
-                                        if (args.length < 1) return reply('teksnya mana bangsat\nContoh: ${prefix}wolfmetal teksmu|wolfmetal')
+                                        if (args.length < 1) return reply('teksnya mana\nContoh: ${prefix}wolfmetal teksmu|wolfmetal')
 					if (!isGroup) return reply(mess.only.group)
                                         if (!isUser) return reply(mess.only.daftarB)
                                         reply(mess.wait)
@@ -1790,7 +1790,7 @@ case 'timer':
                                 case 'metalictglow':
                                         var gh = body.slice(14)
                                         var teks1 = gh.split("|")[0];
-                                        if (args.length < 1) return reply('teksnya mana bangsat\nContoh: ${prefix}metalictglow bot')
+                                        if (args.length < 1) return reply('teksnya mana\nContoh: ${prefix}metalictglow bot')
 					if (!isGroup) return reply(mess.only.group)
                                         if (!isUser) return reply(mess.only.daftarB)
                                         reply(mess.wait)
@@ -1829,7 +1829,7 @@ case 'timer':
                                         break
                                 case 'tiktok':
 					if (!isGroup) return reply(mess.only.group)
-					if (args.length < 1) return reply('Urlnya mana bangsat?')
+					if (args.length < 1) return reply('Urlnya mana?')
 					if (!isUrl(args[0]) && !args[0].includes('tiktok.com')) return reply(mess.error.Iv)
 					reply(mess.wait)
 					anu = await fetchJson(`https://mhankbarbar.tech/api/tiktok?url=${args[0]}&apiKey=${BarBarKey}`, {method: 'get'})
@@ -1839,7 +1839,7 @@ case 'timer':
 					break
 				case 'ttp':
 					if (!isGroup) return reply(mess.only.group)
-					if (args.length < 1) return reply('Textnya mana bangsat?')
+					if (args.length < 1) return reply('Textnya mana?')
 					ranp = getRandom('.png')
 					rano = getRandom('.webp')
 					teks = body.slice(4).trim()
@@ -1898,7 +1898,7 @@ case 'timer':
 						client.updateProfilePicture(botNumber, buffer)
 						mentions(`Foto profile Berhasil di perbarui menggunakan foto profile @${id.split('@')[0]}`, [jid], true)
 					} catch (e) {
-						reply('Gagal bangsat')
+						reply('Gagal')
 					}
 					break
                                 /*case 'magernulis':
@@ -1926,7 +1926,7 @@ case 'timer':
                                 case 'herrypotter':
                                 case 'harrypotter':
                                         var gh = body.slice(12)
-                                        if (args.length < 1) return reply('teksnya mana bangsat\nContoh: ${prefix}harrypotter bot')
+                                        if (args.length < 1) return reply('teksnya mana\nContoh: ${prefix}harrypotter bot')
 					if (!isGroup) return reply(mess.only.group)
                                         if (!isUser) return reply(mess.only.daftarB)
                                         anu = await fetchJson(`https://tobz-api.herokuapp.com/api/photooxy?theme=harry_potter&text=${gh}&apikey=BotWeA`, {method: 'get'})
