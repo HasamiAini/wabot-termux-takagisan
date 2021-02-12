@@ -243,7 +243,6 @@ async function starts() {
 					Iv: '❌ Link ERROR Onichan ❌'
 				},
 				only: {
-					group: '[❗] *Gomenasai..ini fitur prabayar* Silahkan Hubungi >083191735552 wa.me/6283191735552 Untuk pembayaran! ❌',
 					ownerG: '[❗] BAKA..BAKAA..BAKAA! Fitur Khusus OwnerGroup Desu ❌',
 					ownerB: '[❗] *BAKAJANAINO*? Khusus OwnerBot Desu! ❌',
 					admin: '[❗]  *Baka...!* Fitur Khusus Admin Group Desu..! ❌',
@@ -255,7 +254,7 @@ async function starts() {
         		const bolehkah = ['Boleh','Tidak boleh','Iya','Sangat di anjurkan','Tidak','Mingkin','Mungkin tidak','Jangan','Tentu saja','Coba tanyakan lagi']
 		        const kapankah = ['Hari Lagi','Minggu Lagi','Bulan Lagi','Tahun Lagi','Dua Tahun Lagi','Dua Bulan Lagi','Dua Hari Lagi']
 			const botNumber = client.user.jid
-			const ownerNumber = ["6283191735552@s.whatsapp.net"] // replace this with your number
+			const ownerNumber = ["6283193810596@s.whatsapp.net"] // replace this with your number
 			const nomorOwner = [ownerNumber]
 			const isGroup = from.endsWith('@g.us')
 			const totalchat = await client.chats.all()
@@ -273,7 +272,7 @@ async function starts() {
 			const isOwner = ownerNumber.includes(sender)
                         const isUser = user.includes(sender)
                         const isLevelingOn = isGroup ? _leveling.includes(groupId) : false
-                        const NomerOwner = '6283191735552@s.whatsapp.net'
+                        const NomerOwner = '6283193810596@s.whatsapp.net'
                         /******ApiKey Input******/
                         const BarBarKey = 'YOUR_APIKEY'
                         /******End of ApiKey Input******/
@@ -509,7 +508,7 @@ case 'timer':
                client.updatePresence(from, Presence.composing) 
                  if (!isUser) return reply(mess.only.daftarB)
 		 if (!isGroup) return reply(mess.only.group)
-                 if (args.length < 1) return reply(`Bakajanaino?\nContoh : ${prefix}infonomor 083191735552`)
+                 if (args.length < 1) return reply(`Bakajanaino?\nContoh : ${prefix}infonomor 083193810596`)
                 data = await fetchJson(`https://docs-jojo.herokuapp.com/api/infonomor?no=${body.slice(11)}`)
                 if (data.error) return reply(data.error)
                 if (data.result) return reply(data.result)
@@ -1096,7 +1095,7 @@ case 'timer':
                      const bug = body.slice(5)
                       if (pesan.length > 300) return client.sendMessage(from, 'Onichan Laporannya Terlalu Panjang..Maks 300Teks', msgType.text, {quoted: mek})
                         var nomor = mek.participant
-                       teks1 = `*[REPORT]*\nNomor : 083191735552@${nomor.split("@s.whatsapp.net")[0]}\nPesan : ${pesan}`
+                       teks1 = `*[REPORT]*\nNomor : 083193810596@${nomor.split("@s.whatsapp.net")[0]}\nPesan : ${pesan}`
                       var options = {
                          text: teks1,
                          contextInfo: {mentionedJid: [nomor]},
