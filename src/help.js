@@ -1,6 +1,6 @@
 const help = (prefix) => {
 	return `
-「 *BOT_Levi Vers.4.3* 」
+「 *Adnan_Bot* 」
 ╿
 ┡➪☾ ⌨️BOT Commands⌨️ ☽
   ┠➵ *!help*
